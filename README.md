@@ -4,6 +4,8 @@ A browser todo app from [The Odin Project](https://www.theodinproject.com/lesson
 
 Todos live in **projects**. Logic (create, update, delete, localStorage) sits in modules; the DOM layer only renders and listens for clicks. Webpack bundles those modules into one file the browser can load.
 
+![Todo list with projects in the sidebar and todos in the main pane](docs/screenshot.png)
+
 ## What it does
 
 - Add, edit, and delete todos (title, description, due date, priority)
@@ -48,5 +50,6 @@ src/todo.js      Todo CRUD + localStorage
 src/project.js   Projects and which todos they contain
 src/ui.js        DOM: lists, forms, modals
 public/          HTML and CSS
+docs/screenshot.png
 webpack.config.js
 ```
