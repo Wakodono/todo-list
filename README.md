@@ -4,7 +4,11 @@ A browser todo app from [The Odin Project](https://www.theodinproject.com/lesson
 
 Todos live in **projects**. Logic (create, update, delete, localStorage) sits in modules; the DOM layer only renders and listens for clicks. Webpack bundles those modules into one file the browser can load.
 
-![Todo list with projects in the sidebar and todos in the main pane](docs/screenshot.png)
+[![Todo list with projects in the sidebar and todos in the main pane](docs/screenshot.png)](https://wakodono.github.io/todo-list/)
+
+## Live demo
+
+[wakodono.github.io/todo-list](https://wakodono.github.io/todo-list/)
 
 ## What it does
 

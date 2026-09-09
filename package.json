@@ -2,6 +2,7 @@
   "name": "todo-list",
   "version": "1.0.0",
   "main": "todo.js",
+  "homepage": "https://wakodono.github.io/todo-list/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
