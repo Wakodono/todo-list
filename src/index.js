@@ -1,6 +1,7 @@
 import TodoModule from './todo.js';
 import ProjectModule from './project.js';
 import UIModule from './ui.js';
+import './style.css';
 
 
 /* // COMPLETED TESTS - COMMENTED OUT

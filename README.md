@@ -44,16 +44,17 @@ Then open the URL webpack prints (usually `http://localhost:8080`). Todos are st
 npm run build
 ```
 
-writes `dist/bundle.js`. The HTML in `public/` expects the dev server to serve `/bundle.js`.
+writes `dist/` (HTML, CSS-in-JS bundle). GitHub Pages serves that folder.
 
 ## Project layout
 
 ```text
-src/index.js     Wires the modules together
-src/todo.js      Todo CRUD + localStorage
-src/project.js   Projects and which todos they contain
-src/ui.js        DOM: lists, forms, modals
-public/          HTML and CSS
+src/index.js        Wires the modules together
+src/todo.js         Todo CRUD + localStorage
+src/project.js      Projects and which todos they contain
+src/ui.js           DOM: lists, forms, modals
+src/template.html   Page shell (webpack injects the script)
+src/style.css
 docs/screenshot.png
 webpack.config.js
 ```
